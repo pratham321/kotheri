@@ -1,0 +1,456 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  height: 500px;
+}
+.navbar {
+  background-image: linear-gradient(grey, black);
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-light .navbar-brand {
+  color: wheat;
+  font-family: "Martel", serif;
+  font-family: "Rozha One", serif;
+  font-size: xx-large;
+}
+.nav-link:hover {
+  border: 2px solid white;
+  box-shadow: 2px 2px 3px white;
+  border-radius: 4px;
+}
+.nav-link{
+  font-family: 'Roboto Slab', serif;
+
+}
+/* .nav-link{
+ align-items: flex-end;}
+.nav-item{
+    display: flex;
+} */
+.navbar-nav {
+  padding-left: 65%;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .active > .nav-link:hover {
+  color: black;
+}
+.gallery_main {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(231, 216, 216, 0.753),
+    rgb(241, 238, 231)
+  );
+  padding: 20px;
+  box-sizing: border-box;
+
+  /* border: 2px solid black; */
+}
+/* .gallery_item:hover{
+  height: 350px;
+  width: 400px;
+  transition: all.3s ease-in-out;
+} */
+.gallery_item {
+  height: 300px;
+  width: 350px;
+  /* margin-left: 10px;
+  margin-bottom: 10px; */
+margin: 20px;
+}
+.gheading {
+  align-items: center;
+}
+.v_info {
+  /* border: 2px solid black; */
+  height: auto;
+  padding: 60px;
+}
+.info-heading {
+  text-align: center;
+  font-family: "Martel", serif;
+  font-family: "Rozha One", serif;
+  font-size: 40px;
+}
+.info_txt {
+  text-align: center;
+  font-family: "Martel", serif;
+  font-size: 20px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.video_item {
+  height: 250px;
+  width: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.sec_ndv_item {
+  margin-right: 20px;
+}
+/* FOOTER */
+.f_contener {
+  display: flex;
+  background-image: linear-gradient(grey, black);
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: white;
+  padding: 30px;
+}
+.f_item{
+  text-align: justify;
+  font-size: 17px;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* for nav responsive */
+@media screen and (max-width: 1200px)
+{
+  .navbar-nav {
+    padding-left: 0;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-align: center;
+  }
+  .navbar-brand {
+    text-align: center;
+  }
+  img {
+    height: 380px;
+  }
+  .gallery_main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(231, 216, 216, 0.753),
+      rgb(241, 238, 231)
+    );
+    margin-top: 10px;
+    padding: 17px;
+
+    /* border: 2px solid black; */
+  }
+  .gallery_item {
+    height: 180px;
+    width: 260px;
+  margin: 15px;
+  }
+  .info_txt {
+    text-align: center;
+    font-family: "Martel", serif;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+   
+  }
+  .video_item {
+
+    width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .f_item{
+    text-align: justify;
+  font-size: 15px;
+  }
+
+}
+
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    padding-left: 0;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-align: center;
+  }
+  .navbar-brand {
+    text-align: center;
+  }
+  img {
+    height: 380px;
+  }
+  .gallery_main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(231, 216, 216, 0.753),
+      rgb(241, 238, 231)
+    );
+    margin-top: 10px;
+    padding: 17px;
+
+    /* border: 2px solid black; */
+  }
+  .gallery_item {
+    height: 150px;
+    width: 200px;
+  margin: 15px;
+  }
+  .info_txt {
+    text-align: center;
+    font-family: "Martel", serif;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+   
+  }
+  .video_item {
+
+    width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .f_item{
+    text-align: justify;
+  font-size: 15px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .gallery_main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(231, 216, 216, 0.753),
+      rgb(241, 238, 231)
+    );
+    margin-top: 10px;
+    padding: 15px;
+
+    /* border: 2px solid black; */
+  }
+  .gallery_item {
+    height: 250px;
+    width: 45%;
+    margin: 10px;
+  }
+  #last_img{
+    display: none;
+  }
+  .video {
+    display: flex;
+    /* justify-content: center; */
+    /* text-align: center; */
+    flex-direction: row;
+    /* flex: content; */
+    flex-wrap: wrap;
+    /* margin-right:20px; */
+  }
+  .video_item {
+    width: 40%;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-right:10px;
+  }
+  .info_txt {
+    text-align: center;
+    font-family: "Martel", serif;
+    font-size: 17px;
+    text-align: justify;
+  }
+  .info-heading {
+    text-align: center;
+    font-family: "Martel", serif;
+    font-family: "Rozha One", serif;
+    font-size: 30px;
+  }
+ 
+  .f_contener{
+    padding: 13px;
+  }
+  .f_item{
+    text-align: justify;
+  font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .gallery_main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(231, 216, 216, 0.753),
+      rgb(241, 238, 231)
+    );
+    margin-top: 10px;
+    padding: 15px;
+
+    /* border: 2px solid black; */
+  }
+  .gallery_item {
+    height: 170px;
+    width: 45%;
+    margin: 10px;
+  }
+  #last_img{
+    display: none;
+  }
+  .video {
+    display: flex;
+    /* justify-content: center; */
+    /* text-align: center; */
+    flex-direction: row;
+    /* flex: content; */
+    flex-wrap: wrap;
+    /* margin-right:20px; */
+  }
+  .video_item {
+    width: 70%;
+    height: 205px;
+    margin-bottom: 10px;
+    margin-right:10px;
+  }
+  .info_txt {
+    text-align: center;
+    font-family: "Martel", serif;
+    font-size: 17px;
+    text-align: justify;
+  }
+  .info-heading {
+    text-align: center;
+    font-family: "Martel", serif;
+    font-family: "Rozha One", serif;
+    font-size: 30px;
+  }
+ 
+  .f_contener{
+    padding: 13px;
+  }
+  .f_item{
+    text-align: justify;
+  font-size: 13px;
+  }
+}@media screen and (max-width: 477px) {
+  .gallery_main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(231, 216, 216, 0.753),
+      rgb(241, 238, 231)
+    );
+    margin-top: 10px;
+    padding: 7px;
+
+    /* border: 2px solid black; */
+  }
+  .gallery_item {
+    height: 110px;
+    width: 40%;
+    margin: 7px;
+  }
+  #last_img{
+    display: none;
+  }
+  .video {
+    display: flex;
+    /* justify-content: center; */
+    /* text-align: center; */
+    flex-direction: row;
+    /* flex: content; */
+    flex-wrap: wrap;
+    margin-right:10px;
+  }
+  .video_item {
+    width: 70%;
+    height: 200px;
+    margin-bottom: 10px;
+ 
+  
+  }
+  .info-heading {
+    text-align: center;
+    font-family: "Martel", serif;
+    font-family: "Rozha One", serif;
+    font-size: 20px;
+  }
+  .info_txt {
+    text-align: center;
+    font-family: "Martel", serif;
+    font-size: 13px;
+  text-align: justify;
+  }
+  
+  
+  .f_contener{
+    padding: 10px;
+  }
+  .f_item{
+    text-align: justify;
+    font-size: 10px;
+  
+}
+}
